@@ -1,33 +1,46 @@
 body {
-    background: #fefefe;
+  background: #fefefe;
 }
 h1 {
-    color: #020122;
+  color: #020122;
 }
 h2 {
-    color: #FF521B;
+  color: #ff521b;
 }
 h3 {
-    color: #FC9E4F;
+  color: #fc9e4f;
 }
 h4 {
-    color: #BBD1EA;
+  color: #bbd1ea;
 }
 p {
-    color:#662E9B;
+  color: #662e9b;
 }
 ul {
-    color: #EDD382;
+  color: #edd382;
 }
 .hotpink-header {
-    color: hotpink
+  color: hotpink;
 }
 #top {
-background: silver;
+  background: ffff;
 }
 a {
-    color: lightgreen;
+  color: pink;
 }
 nav a {
-    color: green
+  color: pink;
+}
+.navigation {
+    background: pink;
+    padding: 16px;
+    border-radius: 8px;
+}
+.navigation__link {
+    color: white;
+    display: inline-block;
+    margin: 5px;
+}
+.img-circle {
+    border-radius: 50%;
 }

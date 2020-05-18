@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<header>
-    <nav>
-        <a href="nauka-html.html">Nauka HTML-a</a>
-        <a href="nauka-css.html">Nauka CSS</a>
-        <a href="http://www.intothewoods.photo">Moje Fotografie</a>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
+    <nav class="navigation">
+        <a class="navigation__link navigation_link--homepage" href="index.html"> Strona Glowna</a>
+      <a class="navigation__link" href="nauka-html.html">Nauka HTML-a</a>
+      <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+      <a class="navigation__link" href="http://www.intothewoods.photo">Moje Fotografie</a>
     </nav>
-</header>
+  </header>
 
-<body>
+  <body>
     <main>
-        <header id="top">
-            <h1>MAGDALENA KAMINSKA HOMEPAGE</h1>
-        </header>
-        <section id="notatki">
-            <h2 class="hotpink-header">O MNIE</h2>
-            <img src="ja.jpg" alt="Ja z kotem"/>
-            <p>Hej! Nazywam sie Magda i na codzien pracuje jako client support w firmie, ktora tworzy strone internetowe dla klientow sektora inwestycyjnego w Wielkiej Brytanii. <br>Dodatkowo,
-                zajmuje sie tez <a href="https://www.intothewoods.photo">fotografia </a> oraz ucze sie <a
-                    href="#notatki">frontendu.</a>
-                <p>Mieszkam w najpiekniejszym miescie na swiecie, czyli w Edinburghu (UK). <br> Ponadto, interesuje sie
-                    takze:</p>
-                <ul>
-                    <li>Historia Sztuki oraz zwiedzaniem muzeow</li>
-                    <li>Wszelkiego rodzaju muzyka</li>
-                    <li>Pochlanianiem wielkiej ilosci ksiazek</li>
-                    <li>Niepochamowanym ogladaniem seriali</li>
-                    <li>Szukaniu najlepszej kawy w miescie</li>
-                    <li>Yoga oraz tancem, kiedy nikt nie patrzy</li>
-                    <li>Glaskaniem mojego kota</li>
-                    <li>Bardzo dlugimi spacerami z aparatem</li>
-                    <li>Pielegnowaniem domowej dzunglii</li>
-                    <li>Gotowaniem oraz weganizmem</li>
-                </ul>
-        </section>
+      <header id="top">
+        <h1>INTO THE WOODS PHOTOGRAPHY</h1>
+      </header>
+      <section id="notatki">
+        <h2 class="hotpink-header">MAGDALENA KAMINSKA</h2>
+        <img class="img-circle" src="ja.jpg" alt="Ja z kotem" />
+        <p>
+          Hey there! Welcome to my page which I have designed myself with my beginner front-end knowledge.<br>
+          I am just above 30, currently live in Edinburgh and have too many passions to handle.
+          <br> Have a look at what I have learned so far about <a href="#notatki">front-end</a> and take a moment to have a look at my <a href="https://www.intothewoods.photo">photography</a>
+        </p>
+      </section>
     </main>
-    <footer>Strona domowa Magdaleny Kaminskiej. Wszystkie tresci sa efektem uczenia sie do szkoleia WTF: Co ten
-        frontend. <br>
-        <p><a href="#top">Back to Top</a></p>
+    <footer>
+      Into the Woods Photography by Magdalena Kaminska. All rights reserved.<br />
+      <p><a href="#top">Back to Top</a></p>
     </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
